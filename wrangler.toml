@@ -1,0 +1,5 @@
+name = "dog-house-strategy-landing"
+compatibility_date = "2026-06-24"
+
+[assets]
+directory = "./"
