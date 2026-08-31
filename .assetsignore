@@ -1,0 +1,4 @@
+.gitignore
+.assetsignore
+wrangler.toml
+build/

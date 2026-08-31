@@ -168,7 +168,7 @@ iframe { border: 0; }
   justify-content: space-between;
   gap: 1rem;
 }
-.nav__links { display: none; align-items: center; gap: 1rem; }
+.nav__links { display: none; align-items: center; gap: 2rem; }
 .nav__links a {
   font-family: var(--f-body);
   font-size: 0.875rem;
@@ -1049,8 +1049,9 @@ a.footer__logo:focus-visible {
   .strat__steps { grid-template-columns: repeat(4, 1fr); }
 }
 
-/* The full nav row (logo + 7 links + language + CTA) needs ~1216px to sit on
-   one line. Below that the burger menu is used instead of squeezing labels. */
+/* The full nav row (word logo + 6 links at 2rem gaps + CTA) needs ~1100px to
+   sit on one line; 1216px keeps a margin. Below that the burger menu is used
+   instead of squeezing labels. */
 @media (min-width: 1216px) {
   .nav__links { display: flex; }
   .burger { display: none; }
